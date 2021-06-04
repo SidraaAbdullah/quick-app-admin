@@ -1,0 +1,25 @@
+.react-responsive-modal-modal {
+    width: 30rem;
+    height: auto;
+    overflow: visible;
+}
+@media only screen and (max-width: 530px) {
+    .react-responsive-modal-modal {
+        width: 20rem;
+    }
+}
+@media only screen and (max-width: 365px) {
+    .react-responsive-modal-modal {
+        width: 19rem;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .react-responsive-modal-modal {
+        width: 18rem;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .react-responsive-modal-modal {
+        width: 16rem;
+    }
+}

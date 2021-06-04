@@ -1,0 +1,15 @@
+.waitersHeader {
+    display: flex;
+}
+@media only screen and (max-width: 550px) {
+    .waitersHeader {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .csv{
+        margin: 0.5rem 0;
+    }
+    .Pagination{
+        margin-top: 1rem;
+    }
+}

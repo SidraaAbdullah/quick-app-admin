@@ -1,0 +1,6 @@
+.admin{
+    cursor: pointer;
+}
+.admin:hover{
+    color: cornflowerblue;
+}
