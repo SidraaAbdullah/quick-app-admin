@@ -9,7 +9,9 @@ export default function HeaderStats(props) {
       <div
         style={{
           // background: "linear-gradient(0deg, #FCDF6F, #FCDF6F, #955251)",
-          background: "#FDDF6F",
+          "background-color": "#000000",
+          "background-image":
+            "linear-gradient(315deg, #000000 0%, #414141 74%)",
         }}
         className="relative md:pt-32 pb-32 pt-12"
       >
@@ -173,19 +175,19 @@ export default function HeaderStats(props) {
               </div>
             )}
             {props.pathname === "/admin/restaurants" && (
-                <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
-                  <CardStats
-                    BgColor="white"
-                    color="grey"
-                    statSubtitle="MENU LINKS"
-                    statTitle={
-                      props.dashboardData?.restaurant
-                        ?.restaurants_with_menu_url || "-"
-                    }
-                    statIconName="fas fa-link"
-                    statIconColor="bg-blue-800"
-                  />
-                </div>
+              <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
+                <CardStats
+                  BgColor="white"
+                  color="grey"
+                  statSubtitle="MENU LINKS"
+                  statTitle={
+                    props.dashboardData?.restaurant
+                      ?.restaurants_with_menu_url || "-"
+                  }
+                  statIconName="fas fa-link"
+                  statIconColor="bg-blue-800"
+                />
+              </div>
             )}
             {props.pathname === "/admin/waiter-approval" && (
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">

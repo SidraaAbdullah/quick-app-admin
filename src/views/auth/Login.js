@@ -7,7 +7,10 @@ export default function Login() {
   const [Password, setPassword] = useState();
 
   const handleLogin = () => {
-    if (Email?.toLowerCase() === "pourboir@gmail.com" && Password === "Pourboir@2020") {
+    if (
+      Email?.toLowerCase() === "quickrating@gmail.com" &&
+      Password === "quickrating@2020"
+    ) {
       localStorage.setItem(
         "Email",
         JSON.stringify({

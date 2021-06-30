@@ -11,40 +11,15 @@ export default function FooterAdmin() {
               <div className="text-sm text-gray-600 font-semibold py-1 text-center md:text-left">
                 Copyright © {new Date().getFullYear()}{" "}
                 <a
-                  href="https://www.pourboir.com/"
+                  href="https://www.quickrate.pk.com/"
                   className="text-gray-600 hover:text-gray-800 text-sm font-semibold py-1"
                 >
-                  Pourboir
+                  Quick Rating
                 </a>
               </div>
             </div>
             <div className="w-full md:w-8/12 px-4">
-              <ul className="flex flex-wrap list-none md:justify-end  justify-center">
-                <li>
-                  <a
-                    href="https://pourboir.com/en/about-us/qui-sommes-nous/"
-                    className="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
-                  >
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://pourboir.com/en/about-us/blog/"
-                    className="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
-                  >
-                    Blog
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://pourboir.com/en/business/menu/"
-                    className="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
-                  >
-                    Menu
-                  </a>
-                </li>
-              </ul>
+              <ul className="flex flex-wrap list-none md:justify-end  justify-center"></ul>
             </div>
           </div>
         </div>
