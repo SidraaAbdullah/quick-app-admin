@@ -42,7 +42,7 @@ export default function Dashboard(props) {
             BgColor={backgroundColor}
             fontColor="white"
             color="white"
-            statSubtitle="TOTAL MENU LINKS"
+            statSubtitle="TOTAL URL"
             statTitle={
               props.dashboardData?.restaurant?.restaurants_with_menu_url || "0"
             }
@@ -56,7 +56,7 @@ export default function Dashboard(props) {
             BgColor={backgroundColor}
             fontColor="white"
             color="white"
-            statSubtitle="TOTAL BEST WAITERS"
+            statSubtitle="TOTAL BEST STAFF"
             statTitle={props.dashboardData?.waiters?.best_waiters || "0"}
             statIconName="fab fa-gratipay"
             IconColor="white"
@@ -68,7 +68,7 @@ export default function Dashboard(props) {
             BgColor={backgroundColor}
             fontColor="white"
             color="white"
-            statSubtitle="TOTAL BEST RESTAURANTS"
+            statSubtitle="TOTAL BEST PLACES"
             statTitle={props.dashboardData?.restaurant?.best_restaurants || "0"}
             statIconName="fas fa-hamburger"
             IconColor="white"

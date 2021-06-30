@@ -107,7 +107,7 @@ const WaiterApproval = ({ searchInput }) => {
   return (
     <Table
       tableColumns={[
-        "Waiter",
+        "Staff",
         "Rating",
         "Email",
         "Added Method",
@@ -122,7 +122,7 @@ const WaiterApproval = ({ searchInput }) => {
       tableHeading={
         <div className="flex">
           <span className="flex" style={{ width: "50%" }}>
-            Waiter Approval
+            Staff Approval
             {(waitersIsLoading || waitersIsFetching) && (
               <span style={{ marginLeft: "1rem" }}>
                 <Loader

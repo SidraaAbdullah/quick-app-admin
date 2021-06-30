@@ -10,8 +10,8 @@ const BestRestaurants = ({ data }) => {
       tableColumns={[
         "Restaurant",
         "Our Rating",
-        "Waiters",
-        "Menu Url",
+        "Staffs",
+        "Url",
         "Updated On",
         "Created On",
       ]}

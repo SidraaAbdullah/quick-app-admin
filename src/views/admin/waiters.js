@@ -150,7 +150,7 @@ const Waiters = ({ searchInput }) => {
         tableColumns={[
           "",
           "",
-          "Waiter",
+          "Staff",
           "Rating",
           "Tips",
           "Added Method",
@@ -167,7 +167,7 @@ const Waiters = ({ searchInput }) => {
         ]}
         tableHeading={
           <div className="waitersHeader">
-            <span style={{ marginTop: "0.1rem" }}>Waiters</span>
+            <span style={{ marginTop: "0.1rem" }}>Staff</span>
             {(waitersIsLoading || waitersIsFetching) && (
               <span style={{ marginLeft: "1rem" }}>
                 <Loader

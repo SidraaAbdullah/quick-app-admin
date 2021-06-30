@@ -74,7 +74,7 @@ export default function HeaderStats(props) {
                 <CardStats
                   BgColor="white"
                   color="grey"
-                  statSubtitle="TOTAL WAITERS"
+                  statSubtitle="TOTAL STAFF"
                   statTitle={props.dashboardData?.waiters.total_waiters || "-"}
                   // statArrow="up"
                   // statPercent={
@@ -107,7 +107,7 @@ export default function HeaderStats(props) {
                   <CardStats
                     BgColor="white"
                     color="grey"
-                    statSubtitle="ACTIVE WAITERS"
+                    statSubtitle="ACTIVE STAFF"
                     statTitle={
                       props.dashboardData?.waiters?.total_active_waiters || "-"
                     }
@@ -119,7 +119,7 @@ export default function HeaderStats(props) {
                   <CardStats
                     BgColor="white"
                     color="grey"
-                    statSubtitle="ARCHIVE WAITERS"
+                    statSubtitle="ARCHIVE STAFF"
                     statTitle={
                       props.dashboardData?.waiters?.total_archived_waiters ||
                       "-"
@@ -157,7 +157,7 @@ export default function HeaderStats(props) {
                 <CardStats
                   BgColor="white"
                   color="grey"
-                  statSubtitle="RESTAURANTS"
+                  statSubtitle="PLACES"
                   statTitle={
                     props.dashboardData?.restaurant.total_restaurants || "-"
                   }
@@ -194,7 +194,7 @@ export default function HeaderStats(props) {
                 <CardStats
                   BgColor="white"
                   color="grey"
-                  statSubtitle="PENDING WAITERS"
+                  statSubtitle="PENDING STAFFS"
                   statTitle={
                     props.dashboardData?.waiters.total_pending_waiters || "-"
                   }

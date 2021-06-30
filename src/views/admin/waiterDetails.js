@@ -76,7 +76,7 @@ const WaiterDetails = ({ searchInput }) => {
       tableHeading={
         <div className="flex whitespace-no-wrap">
           <span style={{ marginRight: "0.7rem" }}>
-            Waiter Ratings ({ratingsData?.data?.length || "0"})
+            Staff Ratings ({ratingsData?.data?.length || "0"})
           </span>
           <span style={{ fontWeight: "lighter" }}>
             ({history?.location?.state?.waiterName})

@@ -73,8 +73,8 @@ export default function FullWidthTabs(props) {
           aria-label="full width tabs example"
         >
           <Tab style={{color:'black'}} label="Users" {...a11yProps(0)} />
-          <Tab style={{color:'black'}} label="Best Waiters" {...a11yProps(1)} />
-          <Tab style={{color:'black'}} label="Best Restaurants" {...a11yProps(2)} />
+          <Tab style={{color:'black'}} label="Best Staffs" {...a11yProps(1)} />
+          <Tab style={{color:'black'}} label="Best Places" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <SwipeableViews

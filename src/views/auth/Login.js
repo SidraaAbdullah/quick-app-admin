@@ -3,13 +3,13 @@ import { useHistory } from "react-router-dom";
 
 export default function Login() {
   let history = useHistory();
-  const [Email, setEmail] = useState();
-  const [Password, setPassword] = useState();
+  const [Email, setEmail] = useState('quickrating@gmail.com');
+  const [Password, setPassword] = useState('quickrating@2021');
 
   const handleLogin = () => {
     if (
       Email?.toLowerCase() === "quickrating@gmail.com" &&
-      Password === "quickrating@2020"
+      Password === "quickrating@2021"
     ) {
       localStorage.setItem(
         "Email",

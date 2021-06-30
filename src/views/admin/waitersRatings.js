@@ -96,7 +96,7 @@ const WaitersRatings = ({ searchInput, lotteryTab }) => {
               "Created On",
             ]
           : [
-              "Waiter Name",
+              "Staff Name",
               "Voter Name",
               "Voter Email",
               "Hospitality",
@@ -112,7 +112,7 @@ const WaitersRatings = ({ searchInput, lotteryTab }) => {
       tableHeading={
         <div className="waitersHeader">
           <span style={{ width: "15rem" }}>
-            {lotteryTab ? "Lottery Numbers" : "Waiters Ratings"}
+            {lotteryTab ? "Lottery Numbers" : "Staff Ratings"}
           </span>
           {(ratingsIsLoading || ratingsIsFetching) && (
             <span style={{ padding: "0 2rem" }}>

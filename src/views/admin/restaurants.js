@@ -121,8 +121,8 @@ const Restaurants = ({ searchInput }) => {
             await refetchRestaurantsData();
             searchInput.setSearchInput("");
             Swal.fire(
-              "Menu URL Added Successfully!",
-              `The Menu URL has been added to ${name}.`,
+              "URL Added Successfully!",
+              `The URL has been added to ${name}.`,
               "success"
             );
           },
@@ -156,8 +156,8 @@ const Restaurants = ({ searchInput }) => {
       onSuccess: async () => {
         await refetchRestaurantsData();
         Swal.fire(
-          "Menu URL Deleted Successfully!",
-          `The Menu URL has been deleted from ${ResName}.`,
+          "URL Deleted Successfully!",
+          `The URL has been deleted from ${ResName}.`,
           "success"
         );
       },
@@ -178,17 +178,17 @@ const Restaurants = ({ searchInput }) => {
     <Table
       tableColumns={[
         "",
-        "Restaurant",
+        "Places",
         "Rating",
-        "Waiters",
-        "Menu Url",
+        "Staff",
+        "Url",
         "Updated On",
         "Created On",
         "Action",
       ]}
       tableHeading={
         <div className="flex">
-          <span>Restaurants</span>
+          <span>Places</span>
           {(restaurantsIsLoading ||
             restaurantsIsFetching ||
             searchRestaurantsIsFetching ||

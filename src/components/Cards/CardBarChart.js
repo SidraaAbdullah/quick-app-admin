@@ -108,7 +108,7 @@ export default function CardBarChart() {
                 Performance
               </h6> */}
               <h2 className="text-gray-800 text-xl font-semibold">
-                Waiters
+                Staffs
               </h2>
             </div>
           </div>

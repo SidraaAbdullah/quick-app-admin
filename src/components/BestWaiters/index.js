@@ -27,7 +27,7 @@ const BestWaiters = ({ waitersData }) => {
         tableHeading={
           <div className="waitersHeader">
             <span style={{ marginTop: "0.1rem", fontWeight: "200" }}>
-              Best Waiters
+              Best Staffs
             </span>
           </div>
         }

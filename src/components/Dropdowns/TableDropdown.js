@@ -68,7 +68,7 @@ const NotificationDropdown = ({ archiveWaiter, AddMenuURL, DeleteMenuURL, LinkWa
               closeDropdownPopover();
             }}
           >
-            Add Menu URL
+            Add URL
           </a>
         )}
          {DeleteMenuURL && (
@@ -83,7 +83,7 @@ const NotificationDropdown = ({ archiveWaiter, AddMenuURL, DeleteMenuURL, LinkWa
               closeDropdownPopover();
             }}
           >
-            Delete Menu URL
+            Delete URL
           </a>
         )}
         {LinkWaiter && (
