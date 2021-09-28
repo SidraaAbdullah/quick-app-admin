@@ -20,11 +20,6 @@ export default [
     match: "/admin/restaurants",
   },
   {
-    to: "/admin/waiters-ratings?page_no=1",
-    name: "Place Ratings",
-    match: "/admin/place-ratings",
-  },
-  {
     to: "/admin/waiter-approval?page_no=1",
     name: "Staffs Approval",
     match: "/admin/waiter-approval",
